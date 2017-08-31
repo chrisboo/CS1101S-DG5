@@ -26,27 +26,13 @@
         <h4 class="card-header">Problem 1</h4>
         <div class="card-body">
           <code class="prettyprint language-javascript">
-function biggie_size(regular_combo) {
-    return regular_combo + 4;
-}
+<?php include("./content/discussions/2/p1.js"); ?>
           </code>
 
           <p>An alternative solution that uses conditional statements:</p>
 
           <code class="prettyprint language-javascript">
-function biggie_size_2(regular_combo) {
-    if (regular_combo === 1) {
-        return 5;
-    } else if (regular_combo === 2) {
-        return 6;
-    } else if (regular_combo === 3) {
-        return 7;
-    } else if (regular_combo === 4) {
-        return 8;
-    } else {
-        
-    }
-}
+<?php include("./content/discussions/2/p1-alt.js"); ?>
           </code>
         </div>
       </div>
@@ -55,9 +41,7 @@ function biggie_size_2(regular_combo) {
         <h4 class="card-header">Problem 2</h4>
         <div class="card-body">
           <code class="prettyprint language-javascript">
-function unbiggie_size(biggie_size) {
-    return biggie_size - 4;
-}
+<?php include("./content/discussions/2/p2.js"); ?>
           </code>
         </div>
       </div>
@@ -66,9 +50,7 @@ function unbiggie_size(biggie_size) {
         <h4 class="card-header">Problem 3</h4>
         <div class="card-body">
           <code class="prettyprint language-javascript">
-function is_biggie_size(combo) {
-    return (5 <= combo && combo <= 8);
-}
+<?php include("./content/discussions/2/p3.js"); ?>
           </code>
         </div>
       </div>
@@ -78,13 +60,7 @@ function is_biggie_size(combo) {
         <div class="card-body">
           <p>Remember to make use of abstractions, ie. apply the functions defined previously. This makes the program more readable.</p>
           <code class="prettyprint language-javascript">
-function combo_price(combo) {
-    if (is_biggie_size(combo)) {
-        return unbiggie_size(combo) * 1.17 + 0.50;
-    } else {
-        return combo * 1.17;
-    }
-}
+<?php include("./content/discussions/2/p4.js"); ?>
           </code>
         </div>
       </div>
@@ -93,9 +69,7 @@ function combo_price(combo) {
         <h4 class="card-header">Problem 5</h4>
         <div class="card-body">
           <code class="prettyprint language-javascript">
-function empty_order() {
-    return 0;
-}
+<?php include("./content/discussions/2/p5.js"); ?>
           </code>
         </div>
       </div>
@@ -104,9 +78,7 @@ function empty_order() {
         <h4 class="card-header">Problem 6</h4>
         <div class="card-body">
           <code class="prettyprint language-javascript">
-function add_to_order(order, combo) {
-    return order * 10 + combo;
-}
+<?php include("./content/discussions/2/p6.js"); ?>
           </code>
         </div>
       </div>
@@ -115,9 +87,7 @@ function add_to_order(order, combo) {
         <h4 class="card-header">Problem 7</h4>
         <div class="card-body">
           <code class="prettyprint language-javascript">
-function last_combo(order) {
-    return order % 10;
-}
+<?php include("./content/discussions/2/p7.js"); ?>
           </code>
         </div>
       </div>
@@ -126,9 +96,7 @@ function last_combo(order) {
         <h4 class="card-header">Problem 8</h4>
         <div class="card-body">
           <code class="prettyprint language-javascript">
-function other_combos(order) {
-    return (order - last_combo(order)) / 10;
-}
+<?php include("./content/discussions/2/p8.js"); ?>
           </code>
         </div>
       </div>

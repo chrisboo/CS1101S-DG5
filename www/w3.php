@@ -32,23 +32,7 @@
         <div class="card-body">
           <p>Here is a program provided by QinHua:</p>
           <code class="prettyprint language-javascript">
-function sum_of_squares_of_two_larger_numbers(x, y, z) {
-    function square(a) {
-        return a * a;
-    }
-
-    function sum_of_squares(a, b) {
-        return square(a) + square(b);
-    }
-
-    if (x < y && x < z) {
-        return sum_of_squares(y, z);
-    } else if (y < z) {
-        return sum_of_squares(x, z);
-    } else {
-        return sum_of_squares(x, y);
-    }
-}
+<?php include("./content/discussions/3/p1.js"); ?>
           </code>
         </div>
       </div>
@@ -57,23 +41,11 @@ function sum_of_squares_of_two_larger_numbers(x, y, z) {
         <h4 class="card-header">Problem 2</h4>
         <div class="card-body">
           <code class="prettyprint language-javascript">
-function is_leap_year(year) {
-    if (!divisible_by_4(year)) {
-        return false;
-    } else if (!divisible_by_100(year)) {
-        return true;
-    } else if (!divisible_by_400(year)) {
-        return false;
-    } else {
-        return true;
-    }
-}
+<?php include("./content/discussions/3/p2.js"); ?>
           </code>
           <p>Alternatively, here is a more sophisticated solution from Arsalan:</p>
           <code class="prettyprint language-javascript">
-function is_leap_year(year) {
-    return (year % 4 == 0 && year % 100 == 0) || (year % 400 == 0);
-}
+<?php include("./content/discussions/3/p2-alt.js"); ?>
           </code>
           <div class="card">
             <div class="card-header" role="tab" id="headingTwo">
@@ -212,17 +184,7 @@ function is_leap_year(year) {
         <h4 class="card-header">Problem 6</h4>
         <div class="card-body">
           <code class="prettyprint language-javascript">
-function fact(n) {
-    function fact_helper(n, result) {
-        if (n === 0) {
-            return result;
-        } else {
-            return fact_helper(n - 1, result * n);
-        }
-    }
-
-    return fact_helper(n, 1);
-}
+<?php include("./content/discussions/3/p6.js"); ?>
           </code>
         </div>
       </div>

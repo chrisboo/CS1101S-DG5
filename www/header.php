@@ -17,7 +17,7 @@
         <div class="dropdown-menu">
           <?php
             for ($mission = 1; $mission <= 2; $mission++) {
-              echo "<a class='dropdown-item' href='w$mission.php'>Mission $mission</a>";
+              echo "<a class='dropdown-item' href='m$mission.php'>Mission $mission</a>";
             }
           ?>
         </div>
