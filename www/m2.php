@@ -24,7 +24,7 @@
     <div class="container">
       <!-- Main content here -->
       <h1>
-        Rune Trials
+        Rune Reading
       </h1>
 
       <div class="card">
