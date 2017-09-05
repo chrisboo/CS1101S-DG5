@@ -6,7 +6,7 @@
         <a class="nav-link dropdown-toggle" href="#" data-toggle="dropdown">Discussions</a>
         <div class="dropdown-menu">
           <?php
-            for ($week = 2; $week <= 3; $week++) {
+            for ($week = 2; $week <= 4; $week++) {
               echo "<a class='dropdown-item' href='w$week.php'>Week $week</a>";
             }
           ?>
