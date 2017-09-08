@@ -17,7 +17,8 @@
     <?php include("./header.php");?>
 
     <div class="container">
-        <p>Hello!</p>
+        <p>Hello, Chris here! I am one of the avengers for CS1101S - Programming Methodology AY17/18. This website contains supplementary materials for my Discussion Group 5.</p>
+        <p>If you found any errors, please report it to kaihsien.boo@u.nus.edu.</p>
     </div>
 
     <!-- Optional JavaScript -->
